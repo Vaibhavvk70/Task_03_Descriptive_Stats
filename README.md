@@ -16,7 +16,8 @@ This project analyzes social media content related to the 2024 US Presidential e
 
 ## 📈 Approach, Summary of findings, interesting insights and Lessons Learned for all 3 datasets
 
-1.	Ads Dataset
+ADS DATASET
+
 Pure Python: - Approach – Used csv, math and collections for basic operations. Used loops and Python functions in order to compute stats like mean, std, min, max, count and used counter for categorical summaries. Advantage of pure Python script is it doesn’t need any external libraries, and disadvantage is it is less efficient for large datasets and not ideal for scalability. 
 
 Pandas: - Approach – Used read_csv, describe, nunique and value counts. The advantage of using Pandas is it is ideal for ad-hoc analysis and for moderate or large datasets. Cons of using this approach is Pandas requires more memory than Polars. 
@@ -31,7 +32,7 @@ Interesting insights – Aggregated stats showed that some ads were low budget b
 
 Lessons Learned – In Polars, there is no attribute called is_numeric like Pandas. 
 
-2.	Facebook posts
+FACEBOOK POSTS DATASET
 
 Pure Python: - Approach – Defined functions to compute mean, standard deviation, min/max, used counter to get mode and unique counts and grouped data by Facebook_id and post_id using dictionaries. 
 
@@ -41,7 +42,7 @@ Summary of findings and interesting insights - Posts with images or videos typic
 
 Lessons learned – Datetime conversion is crucial and necessary for accurate statistics and grouping of data. 
 
-3.	Twitter posts
+TWITTER POSTS DATASET
 
 Pure Python: - Approach – Implemented logic for aggregating stats by source and id using dictionaries. 
 
